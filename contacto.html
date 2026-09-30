@@ -10,34 +10,55 @@
     
 <body> 
     <!-- ENCABEZADO Y NAVEGACIÓN -->
-    <header>
-        <h1>Los Ingenieros de la Pizza</h1>
-        <p class="slogan">Sabores que hacen especial cada momento</p>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="menu.html">Menú</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </header>
+  <header>
+      <h1>Los Ingenieros de la Pizza</h1>
+  </header>
+  <br>
+      <nav>
+          <a href="index.html">Inicio</a>
+          <a href="#menu">Menú</a>
+          <a href="contacto.html">Contacto</a>
+      </nav>
+<br>
+<hr>
+<br>
     
     <main>
         <section id="contacto">
             <h2>Contacto y Horarios</h2>
 
             <p>Conocé nuestro salón o hacé tu pedido para disfrutar en casa:</p>
-            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600" alt="Salón comedor del restaurante" width="450">
-            
-            <p>📍 <strong>Ubicación:</strong> José C. Paz, Buenos Aires — <a href="https://maps.google.com/?q=Jose+C+Paz+Buenos+Aires" target="_blank">Ver mapa en Google Maps</a></p>
-            <p>📞 <strong>Teléfono:</strong> 11 1234-5678</p>
-            <p>🕒 <strong>Horarios:</strong> Lunes a domingo de 19:00 a 00:00 hs</p>
-            <p>🛵 <strong>Servicio:</strong> Delivery y retiro por el local</p>
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600" id="local">
+<br>
+         <div class="ubicacion"> 
+            <h3>Ubicación:</h3>
+            <p id="ubi">José C. Paz, Buenos Aires</p>
+            <a href="https://maps.google.com/?q=Jose+C+Paz+Buenos+Aires" target="_blank">Ver mapa en Google Maps</a>
+         </div>
+
+         <div class="telefono">
+            <h3>Teléfono:</h3>
+            <p id="numero">11 1234-5678</p>
+         </div>
+         
+         <div class="horarios">
+            <h3>Horarios:</h3>
+            <p id="hora">Lunes a domingo de 19:00 a 00:00 hs</p>
+        </div>
+
+        <div class="servicio">
+            <h3>Servicio:</h3>
+            <p id="aviso">y retiro por el local</p>
+        </div>
+
             <br>
             <div class="contenedor-boton">
-                <a href="https://wa.me/541112345678" target="_blank" class="boton boton-wpp">Hacer pedido por WhatsApp</a>
+                <button>Hacer pedido por WhatsApp</button>
             </div>
         </section>
     </main>
-
+<br>
+<br>
     <!-- PIE DE PÁGINA -->
     <footer>
         <p>© 2026 Los Ingenieros de la Pizza - UNPAZ</p>
