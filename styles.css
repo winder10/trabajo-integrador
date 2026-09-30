@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+
+* {
+    font-family: "Cal Sans", sans-serif !important;
+    margin: 10px !important;
+    padding: 0;
+}
+
+body {
+    border: firebrick solid;
+}
+
+header {
+    background-color:firebrick ;
+    color: white;
+    text-align: center;
+
+}
+header h1{
+    font-family: "Bebas Neue", sans-serif !important;
+    font-size: 100px;
+}
+
+nav {
+    text-align: center;
+}
+nav a {
+    gap: 15px;
+    background-color: firebrick;
+    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+}
+
+h2 {
+    color: firebrick;
+    font-family: "Bebas Neue", sans-serif !important;
+    font-size: 67px;
+}
+
+#banner, #local, #pisa {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 98%;
+    height: auto;
+    border: firebrick solid;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    background-color: firebrick;
+    border-color: darkred;
+    border-radius: 6px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    color: firebrick;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    color: firebrick;
+}
+
+footer {
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contenedor-boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: none;
+}
+
+.ubicacion, .telefono, .horarios, .servicio {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+#ubi, #numero, #hora, #aviso{
+    font-size: 25px;
+}
+
+a {
+    color: firebrick;
+}
+
+.tipos {
+    width: 600px;
+    height: 500px;
+    border: firebrick solid;
+}
+
+.precio {
+    font-size: 30px;
+}
