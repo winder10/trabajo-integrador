@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los Ingenieros de la Pizza - Menú</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
     
 <body> 
@@ -13,66 +14,76 @@
     <header>
         <h1>Los Ingenieros de la Pizza</h1>
     </header>
-<br>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="menu.html">Menú</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
+    <br>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
     <br>
     <hr>
     <br>
     <main>
         <section id="menu">
             <h2>Menú de Especialidades</h2>
-            <img src="menu.jpg" id="pisa">
-<br>
-            <article>
+            <img src="menu.jpg" id="pisa" alt="Menú de Pizzas">
+            <br>
+            <article class="pizza-card">
                 <h2>Muzzarella</h2>
-                <img src="muzza.jpg" class="tipos">
+                <img src="muzza.jpg" class="tipos" alt="Muzzarella">
                 <p class="precio">$9.000</p>
+                <button type="button" class="btn-pedir">Seleccionar Pizza</button>
             </article>
-<br>
-<hr>
-<br>
+            <br>
+            <hr>
+            <br>
 
-            <article>
+            <article class="pizza-card">
                 <h2>Especial</h2>
-                <img src="jamon.jpg" class="tipos">
+                <img src="jamon.jpg" class="tipos" alt="Especial">
                 <p class="precio">$12.000</p>
+                <button type="button" class="btn-pedir">Seleccionar Pizza</button>
             </article>
-<br>
-<hr>
-<br>
-            <article>
+            <br>
+            <hr>
+            <br>
+            <article class="pizza-card">
                 <h2>Napolitana</h2>
-                <img src="napolitana.jpg" class="tipos">
+                <img src="napolitana.jpg" class="tipos" alt="Napolitana">
                 <p class="precio">$12.000</p>
+                <button type="button" class="btn-pedir">Seleccionar Pizza</button>
             </article>
-<br>
-<hr>
-<br>
-            <article>
+            <br>
+            <hr>
+            <br>
+            <article class="pizza-card">
                 <h2>Hawaiana</h2>
-                <img src="hawaiana.jpg" class="tipos">
+                <img src="hawaiana.jpg" class="tipos" alt="Hawaiana">
                 <p class="precio">$13.000</p>
+                <button type="button" class="btn-pedir">Seleccionar Pizza</button>
             </article>
-<br>
-<hr>
-<br>
-            <article>
+            <br>
+            <hr>
+            <br>
+            <article class="pizza-card">
                 <h2>Fugazzeta</h2>
-                <img src="fugazzeta.jpg" class="tipos">
+                <img src="fugazzeta.jpg" class="tipos" alt="Fugazzeta">
                 <p class="precio">$11.000</p>
+                <button type="button" class="btn-pedir">Seleccionar Pizza</button>
             </article>
         </section>
     </main>
-<br>
-<br>
+    <br>
+    <br>
     <!-- PIE DE PÁGINA -->
     <footer>
         <p>© 2026 Los Ingenieros de la Pizza - UNPAZ</p>
         <p>Sabores que hacen especial cada momento</p>
+        <div>
+            <p>Conocé más de nosotros y nuestra zona:</p>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram Oficial</a> | 
+            <a href="https://maps.google.com/?q=Jose+C+Paz" target="_blank" rel="noopener noreferrer">Ubicación en Google Maps</a>
+        </div>
     </footer>
 </body>
 </html>
